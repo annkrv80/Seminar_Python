@@ -15,3 +15,17 @@ if k == 1:
     print(0)
 else: 
     print(k)
+
+
+a= int(input("Введите число: "))
+b = int(input("Введите число: "))
+c = int(input("Введите число: "))
+
+def GetNum(a, b, c):
+    if a == b == c:
+      return 3
+    if a == b or b==c or a==c:
+      return 2
+    return 0
+
+print(GetNum(a,b,c))
