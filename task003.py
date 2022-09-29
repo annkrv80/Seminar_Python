@@ -8,3 +8,6 @@ n = int (input('Введите число N '))
 for i in range (n):
     result = randrange(-100,100)
     print(result,end=" ")
+
+
+    
